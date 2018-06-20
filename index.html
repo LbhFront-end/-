@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/ucity.css">
+	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
+	<script type="text/javascript" src="./js/event.js"></script>
+</head>
+<body>
+	<div class="flex-col flex-x-center flex-y-center">
+		<div class="head flex-row flex-x-center flex-y-center col-md-12 col-lg-10 col-xs-12">
+			<div class="headlogo flex-row flex-y-center flex-x-center col-md-3 col-lg-2 col-xs-2">
+				<img src="./img/index/headlogo.jpg" alt="">
+			</div>
+			<div class="flex-row flex-left flex-y-center col-md-9 col-lg-10 col-xs-10">
+				<ul id="myTab" class="nav nav-pills">
+					<li class="active"><a href="#home" data-toggle="tab" onclick="window.location.href='index.html';">首页</a></li>
+					<li><a href="#highsun" data-toggle="tab" onclick="window.location.href='highsun.html';">海印股份</a></li>
+					<li><a href="#position" data-toggle="tab" onclick="window.location.href='commerce.html';">商业特色</a></li>
+					<li><a href="#commerce" data-toggle="tab"  onclick="window.location.href='item.html';">商务空间</a></li>
+					<li><a href="#life" data-toggle="tab" onclick="window.location.href='life.html';">精彩活动</a></li>					
+					<li><a href="#contact" data-toggle="tab" onclick="window.location.href='contact.html';">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="myCarousel" class="carousel slide col-md-12 col-lg-12 col-xs-12">
+			<div class="carousel-point flex-row flex-right">
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators flex-row flex-y-center">
+					<li data-target="#myCarousel" data-slide-to="0" class="active" class="slide-one"></li>
+					<li data-target="#myCarousel" data-slide-to="1" class="slide-two"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+			</div>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="ht flex-col flex-left flex-y-center">
+				<p id="isocp1" class="isocp">
+					New business 
+				</p>
+				<p id="isocp2" class="isocp isocp2 flex-col flex-left flex-y-center">
+					center of Bay area
+				</p>
+				<p id="x-line" class="x-line flex-col flex-left flex-y-center"/>
+				<p id="CNM" class="CNM flex-col flex-left flex-y-center">
+					国际甲级写字楼<br>湾区商务新中心	
+				</p>
+				<p id="FZYXJW" class="FZYXJW flex-col flex-left flex-y-center">
+					海印又一城填补南湾片区高端商务建筑的稀缺，150m2/4.6m层高，满足南湾片区未来众<br>多企业对高品质办公场所的需求，成为南湾片区强大的商业配套。
+				</p>
+				<p id="FZYXJW2" class="FZYXJW FZYXJW2 flex-col flex-left flex-y-center">
+					自由阔达的空间、创新的建筑设计、能满足公司发展各阶段空间需求；优质的硬件设置<br>和专业的运营管理能力，为企业创建个性、舒适的办公环境。
+				</p>
+			</div>
+			<div class="cover">
+				<img src="img/index/lb_bg.png" alt="">
+			</div>	
+			<div class="carousel-inner">
+				
+				<div class="item active" 
+				data-isocp1="New business1"
+				data-isocp2="center of Bay area"
+				data-x-line = ""
+				data-CNM="国际甲级写字楼<br>湾区商务新中心"
+				data-FZYXJW="海印又一城填补南湾片区高端商务建筑的稀缺，150m2/4.6m层高，满足南湾片区未来众<br>多企业对高品质办公场所的需求，成为南湾片区强大的商业配套。"
+				data-FZYXJW2="自由阔达的空间、创新的建筑设计、能满足公司发展各阶段空间需求；优质的硬件设置<br>和专业的运营管理能力，为企业创建个性、舒适的办公环境。"
+				>
+				<img src="img/index/1.png" alt="First slide" class="carousel-inner-img1">
+			</div>
+			<div class="item" 
+				data-isocp1="New business2"
+				data-isocp2="center of Bay area"
+				data-x-line = ""
+				data-CNM="国际甲级写字楼<br>湾区商务新中心"
+				data-FZYXJW="海印又一城填补南湾片区高端商务建筑的稀缺，150m2/4.6m层高，满足南湾片区未来众<br>多企业对高品质办公场所的需求，成为南湾片区强大的商业配套。"
+				data-FZYXJW2="自由阔达的空间、创新的建筑设计、能满足公司发展各阶段空间需求；优质的硬件设置<br>和专业的运营管理能力，为企业创建个性、舒适的办公环境。"
+				>
+			<img src="img/index/1.png" alt="Second slide" class="carousel-inner-img2">
+		</div>
+		<div class="item" 
+				data-isocp1="New business3"
+				data-isocp2="center of Bay area"
+				data-x-line = ""
+				data-CNM="国际甲级写字楼<br>湾区商务新中心"
+				data-FZYXJW="海印又一城填补南湾片区高端商务建筑的稀缺，150m2/4.6m层高，满足南湾片区未来众<br>多企业对高品质办公场所的需求，成为南湾片区强大的商业配套。"
+				data-FZYXJW2="自由阔达的空间、创新的建筑设计、能满足公司发展各阶段空间需求；优质的硬件设置<br>和专业的运营管理能力，为企业创建个性、舒适的办公环境。"
+				>
+		<img src="img/index/1.png" alt="Third slide" class="carousel-inner-img3">	
+	</div>
+</div>
+<div class="flex-row  flex-y-center">
+	<!-- 轮播（Carousel）导航 -->
+	<div class="flex flex-y-center flex-x-center">
+		<a class="carousel-control " href="#myCarousel" 
+		data-slide="prev" id="prev">
+			<span>&lsaquo;</span>
+		</a>
+	</div>
+	<div>
+		<a class="carousel-control right" href="#myCarousel" 
+		data-slide="next" id="next">&rsaquo;</a>
+	</div>
+	
+</div>	
+</div>
+
+
+<div class="content">
+	<div class="hs flex-row">
+		<div class="fl flex-col">
+			<img src="img/index/c1.jpg" alt="" class="c1 fl">
+			<img src="img/index/c3.jpg" alt="" class="c3 fl">
+		</div>
+		<div class="fl">
+			<img src="img/index/c5.jpg" alt="" class="c5 fl">
+		</div>
+	</div>
+	<div class="ewm">
+		<img src="img/index/ewm.png" alt="" class="ewm ">
+	</div>
+</div>
+<div class="footer">
+	<div class="i3 flex-row flex-x-center flex-y-center">
+		<img src="img/index/ip.jpg" alt="" id="ip">
+		<img src="img/index/call.jpg" alt="" id="call">
+		<img src="img/index/mail.jpg" alt="" id="mail">
+	</div>
+	<div class="footer_foot">
+		<img src="img/index/foot.png" alt="">
+	</div>
+</div>
+</div>
+</body>
+</html>

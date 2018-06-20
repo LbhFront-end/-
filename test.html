@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 实例 - 响应式的导航栏</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/ucity.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid"> 
+				<div class="navbar-header flex-row flex-y-center flex-space-around">
+					<div class="flex-col flex-center">
+						<img src="./img/headlogo.jpg" class="navbar-brand" alt="">
+					</div>
+					<div class="navbtn flex-row flex-right">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</div>
+			<div class="collapse navbar-collapse " id="example-navbar-collapse">
+				<ul id="myTab" class="nav nav-pills">
+					<li class="active"><a href="#home" data-toggle="tab">首页</a></li>
+					<li><a href="#position" data-toggle="tab">区位优势</a></li>
+					<li><a href="#commerce" data-toggle="tab">商业特色</a></li>
+					<li><a href="#life" data-toggle="tab">生活配套</a></li>
+					<li><a href="#business" data-toggle="tab">商务空间</a></li>
+					<li><a href="#highsun" data-toggle="tab">海印股份</a></li>
+					<li><a href="#house" data-toggle="tab">户型介绍</a></li>
+					<li><a href="#activity" data-toggle="tab">最新活动</a></li>
+					<li><a href="#contact" data-toggle="tab">联系我们</a></li>
+					<li><a href="#member" data-toggle="tab">会员入口</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
+</body>
+</html>
